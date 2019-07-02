@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import ShoppingCart from './Components/ShoppingCart';
+import TechSpecs from './Components/TechSpecs';
 
 class App extends Component {
   constructor(props) {
@@ -36,7 +37,7 @@ class App extends Component {
   }
 
   render() {
-    //techspecs.js
+    //shoppingcart.js
     const summary = Object.keys(this.state.selected).map(key => (
       <div className='summary__option' key={key}>
         <div className='summary__option__label'>{key} </div>
@@ -65,6 +66,7 @@ class App extends Component {
             ? 'feature__selected'
             : '';
         const featureClass = 'feature__option ' + selectedClass;
+        console.log(this);
         return (
           <li key={index} className='feature__item'>
             <div
@@ -81,6 +83,7 @@ class App extends Component {
           </li>
         );
       });
+
       //techspecs
       return (
         <div className='feature' key={key}>
@@ -101,10 +104,12 @@ class App extends Component {
           <section className='main__form'>
             <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
             {features}
+            {/* <TechSpecs /> */}
           </section>
           <section className='main__summary'>
             <h3>NEW GREENLEAF 2018</h3>
-            <ShoppingCart />
+            {summary}
+            {/* <ShoppingCart /> */}
             <div className='summary__total'>
               <div className='summary__total__label'>Your Price: </div>
               <div className='summary__total__value'>
