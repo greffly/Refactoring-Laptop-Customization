@@ -11,7 +11,7 @@ export default class SpecOptions extends Component {
             ? 'feature__selected'
             : '';
         const featureClass = 'feature__option ' + selectedClass;
-        console.log(this);
+        console.log(this.props);
         return (
           <li key={index} className='feature__item'>
             <div

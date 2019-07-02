@@ -66,7 +66,6 @@ class App extends Component {
             ? 'feature__selected'
             : '';
         const featureClass = 'feature__option ' + selectedClass;
-        console.log(this);
         return (
           <li key={index} className='feature__item'>
             <div
