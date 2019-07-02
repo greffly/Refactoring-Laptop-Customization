@@ -52,7 +52,7 @@ class App extends Component {
         </div>
       </div>
     ));
-    //total cost in shoppingcart.js
+    //total cost keep in app.js
     const total = Object.keys(this.state.selected).reduce(
       (acc, curr) => acc + this.state.selected[curr].cost,
       0
