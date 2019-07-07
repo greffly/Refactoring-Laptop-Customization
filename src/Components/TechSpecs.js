@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import '../Style/TechSpecs.css';
-import SpecOptions from './SpecOptions';
 
 export default class TechSpecs extends Component {
   render() {
-    const specs = this.props;
+    const { id, options } = this.props;
     return (
-      <div className='feature' key={specs.key}>
-        <div className='feature__name'>{specs.key}</div>
-        <ul className='feature__list'>{specs.options}</ul>
+      <div className='feature' key={id}>
+        <div className='feature__name'>{id}</div>
+        <ul className='feature__list'>{options}</ul>
       </div>
     );
   }
