@@ -1,5 +1,6 @@
 {
   "name": "laptop-customizer",
+  "homepage": "https://greffly.github.io/Refactoring-Laptop-Customization",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
