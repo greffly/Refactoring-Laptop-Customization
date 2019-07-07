@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.6c8fbf42.chunk.css",
-  "main.js": "/static/js/main.aacc8e3e.chunk.js",
-  "main.js.map": "/static/js/main.aacc8e3e.chunk.js.map",
-  "static/js/1.3daf1773.chunk.js": "/static/js/1.3daf1773.chunk.js",
-  "static/js/1.3daf1773.chunk.js.map": "/static/js/1.3daf1773.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.6c8fbf42.chunk.css.map": "/static/css/main.6c8fbf42.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.2405307baa34545db85373843b0c7de4.js": "/precache-manifest.2405307baa34545db85373843b0c7de4.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/Refactoring-Laptop-Customization/static/css/main.6c8fbf42.chunk.css",
+  "main.js": "/Refactoring-Laptop-Customization/static/js/main.aacc8e3e.chunk.js",
+  "main.js.map": "/Refactoring-Laptop-Customization/static/js/main.aacc8e3e.chunk.js.map",
+  "static/js/1.3daf1773.chunk.js": "/Refactoring-Laptop-Customization/static/js/1.3daf1773.chunk.js",
+  "static/js/1.3daf1773.chunk.js.map": "/Refactoring-Laptop-Customization/static/js/1.3daf1773.chunk.js.map",
+  "runtime~main.js": "/Refactoring-Laptop-Customization/static/js/runtime~main.00ea767a.js",
+  "runtime~main.js.map": "/Refactoring-Laptop-Customization/static/js/runtime~main.00ea767a.js.map",
+  "static/css/main.6c8fbf42.chunk.css.map": "/Refactoring-Laptop-Customization/static/css/main.6c8fbf42.chunk.css.map",
+  "index.html": "/Refactoring-Laptop-Customization/index.html",
+  "precache-manifest.0b279f460b13218f7d42587b1f68cbda.js": "/Refactoring-Laptop-Customization/precache-manifest.0b279f460b13218f7d42587b1f68cbda.js",
+  "service-worker.js": "/Refactoring-Laptop-Customization/service-worker.js"
 }
